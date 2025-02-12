@@ -33,7 +33,7 @@ def create_ascii_text():
 
         # Get font choice from user
         while True:
-            font_choice = input(" >>> Enter a font, '?' for a list or [ENTER] for all': ")
+            font_choice = input(" >>> Enter a font, '?' for a list or [ENTER] for all', 'q' to go back to main menu: ")
             if font_choice == "q":
                break
 
